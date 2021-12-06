@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+}
+.heading {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.container {
+  border: 1px solid black;
+}
+.card {
+  position: relative;
+  border-radius: 4px;
+  max-width: 150px;
+  max-height: 130px;
+  box-shadow: 0 4px 8px 0 rgba(88, 88, 88, 0.2),
+    0 6px 20px 0 rgba(87, 86, 86, 0.19);
+  background: linear-gradient(to top, #2a3d49 50%, #263242 50%);
+}
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.divs {
+  padding: 5px;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  border-radius: 50%;
+}
+.left-side {
+  position: absolute;
+  margin-right: 120px;
+}
+.right-side {
+  position: absolute;
+  margin-left: 120px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  background: linear-gradient(to top, #cf47c9 50%, #bd49b1 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
+  margin: 20px;
+  font-size: 80px;
+  color: rgb(243, 104, 150);
+}
+.time-text {
+  text-align: center;
+  color: rgb(160, 157, 157);
+  font-size: 15px;
+}
+.footer {
+  text-align: center;
+  margin-top: 200px;
+}
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #bec7d8;
+  color: black;
+  border-radius: 4px;
+}
+.fa-instagram {
+  background: black;
+  font-size: 50px;
+  color: white;
+}
+.fa-pinterest {
+  margin-left: 5px;
+  margin-right: 0;
+  background: #bec7d8;
+  color: black;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 550px) {
+  .card {
+    margin-top: 40px;
+  }
+}

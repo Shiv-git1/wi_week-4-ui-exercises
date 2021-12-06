@@ -1,0 +1,139 @@
+body {
+  background-color: rgb(243, 241, 237);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(188, 243, 243);
+  height: 90vh;
+  padding-top: 5px;
+}
+.heading h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 25px;
+  color: rgb(10, 68, 63);
+}
+.heading .top-text {
+  margin-bottom: 20px;
+}
+.top-text span {
+  letter-spacing: 6px;
+}
+.card-top-text h5 {
+  margin-bottom: 5px;
+  color: rgb(10, 68, 63);
+}
+.card-container {
+  width: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-second-item {
+  margin-top: 0;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 40px;
+}
+.card-second-item h4 {
+  color: rgb(10, 68, 63);
+}
+.card-second-item h5 {
+  color: aquamarine;
+}
+.six-button {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.three-button {
+  display: flex;
+  gap: 1%;
+}
+button {
+  width: 85px;
+  margin-bottom: 10px;
+  padding: 8px 13px 8px 13px;
+  background-color: rgb(10, 68, 63);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: aquamarine;
+}
+.btn-3 button {
+  background-color: aquamarine;
+  color: black;
+}
+.btn-3 button:hover,
+.btn-6 button:hover,
+.reset-btn button:hover {
+  background-color: rgb(188, 224, 212);
+}
+.btn-6 button {
+  background-color: white;
+  color: aquamarine;
+  font-size: 15px;
+  text-align: center;
+}
+.card-1 {
+  margin-right: 5%;
+}
+.tip-total {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+.tip-text h4 {
+  margin-bottom: 0;
+  color: white;
+}
+.tip-text h5 {
+  margin-top: 0;
+  color: aquamarine;
+}
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 270px;
+  width: 250px;
+  background-color: rgb(10, 68, 63);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tip-price {
+  color: aquamarine;
+}
+.reset-btn button {
+  margin-top: 50px;
+  background-color: aquamarine;
+  color: black;
+  width: 220px;
+}
+
+@media only screen and (max-width: 650px) {
+  .card-container {
+    flex-flow: column;
+    max-height: 100%;
+    padding: 5% 2% 5% 2%;
+    max-width: 300px;
+  }
+  .container {
+    height: 100vh;
+    margin-top: 20px;
+  }
+}

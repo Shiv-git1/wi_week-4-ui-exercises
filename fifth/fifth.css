@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  background-color: rgb(231, 46, 108);
+  background-repeat: no-repeat;
+}
+.top-part {
+  float: right;
+  border-radius: 0 0 0 12px;
+  background-color: white;
+  padding: 5px;
+  margin-top: 0;
+  margin-right: 0;
+  width: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  max-width: 90%;
+  display: flex;
+  gap: 2%;
+  justify-content: space-between;
+}
+.heading {
+  margin-left: 5%;
+  margin-top: 20%;
+  max-width: 500px;
+}
+.card-container {
+  min-width: 350px;
+  position: relative;
+  background-color: white;
+  margin-top: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin-bottom: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.large-text {
+  font-size: 20px;
+}
+.content {
+  color: white;
+}
+.top-button button {
+  margin-top: 8%;
+  background-color: rgb(102, 18, 180);
+  max-width: 100%;
+  margin-right: 0;
+  padding: 12px 22px 12px 22px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 15px;
+  position: absolute;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bottom-button button {
+  background-color: rgb(123, 199, 123);
+  padding: 12px 20px 12px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-top: 10px;
+  width: 220px;
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input {
+  font-size: 14px;
+  position: relative;
+  margin-top: 15px;
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 220px;
+  font-size: 14px;
+}
+.bottom-text p {
+  font-size: 12px;
+}
+.bottom-text span {
+  color: red;
+}
+.container-2 {
+  margin-left: 10%;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-2 {
+    margin-left: 2%;
+    margin-right: 5%;
+    max-width: 50%;
+  }
+  .card-container {
+    margin-right: 5%;
+    margin-bottom: 10px;
+  }
+  .top-button button {
+    margin-bottom: 0;
+  }
+}
